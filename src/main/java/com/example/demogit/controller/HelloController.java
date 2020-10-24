@@ -10,7 +10,8 @@ public class HelloController {
     @RequestMapping("/index")
     public String index(){
         return "Welcome to here!" +
-                "update by idea..";
+                "update by idea.." +
+                "This line content come from dev branch.";
     }
 
 }
