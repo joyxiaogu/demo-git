@@ -9,8 +9,7 @@ public class HelloController {
 
     @RequestMapping("/index")
     public String index(){
-        return "Welcome to here!" +
-                "update ...!!!222222 github    local local  " ;
+        return "Welcome to here! pull  在自动合并代码时有冲突，解决冲突！" ;
 
     }
 
